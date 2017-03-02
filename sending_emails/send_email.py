@@ -6,8 +6,8 @@ from keys import *
 
 
 # email particulars
-recipient = ''
-sender = ''
+recipient = 'lakshika.1396@gmail.com'
+sender = 'ljuneja1@sheffield.ac.uk'
 
 
 # email specifics
@@ -15,7 +15,7 @@ subject = 'Hello there'
 body_t = " You just sent your first email with Python!"
 
 # formattting and sending message
-request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(sandbox) #url 
+request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(sandbox) #url
 
 # sending the email
 request = requests.post(request_url, auth=('api', key), data={
